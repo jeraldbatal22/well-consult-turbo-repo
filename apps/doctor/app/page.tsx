@@ -1,9 +1,11 @@
 import { Button } from "@repo/ui/components/ui/button";
 
 export default function Home() {
+  const env = process.env.API_BASE_URL;
+  console.log(env)
   return (
     <div className=" h-screen flex justify-center items-center">
-      <Button className="bg-green-500">HELLO FROM USER SIDE UPDATE</Button>
+      <Button className="bg-green-500">HELLO FROM DOCTOR</Button>
     </div>
   );
 }

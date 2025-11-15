@@ -1,5 +1,5 @@
 {
-  "name": "healthcare",
+  "name": "well-consult",
   "private": true,
   "scripts": {
     "build": "turbo run build",
