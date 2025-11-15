@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Home, Calendar, ShoppingBag, User } from "lucide-react";
 
-// import Image from "next/image";
+import Image from "next/image";
 import {
   Sidebar,
   SidebarContent,
@@ -51,12 +51,12 @@ export function AppSidebar() {
     >
       <SidebarHeader>
         <div className="flex items-center gap-2 px-2">
-          {/* <Image
+          <Image
             src="/assets/images/logo.png"
             alt="logo"
             width={32}
             height={32}
-          /> */}
+          />
           <span className="font-bold text-lg group-data-[collapsible=icon]:hidden">
             wellConsult
           </span>

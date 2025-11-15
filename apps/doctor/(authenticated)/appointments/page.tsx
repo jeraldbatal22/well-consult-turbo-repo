@@ -1,7 +1,7 @@
 "use client"
 
 // import { useState } from "react"
-// import Image from "next/image"
+import Image from "next/image"
 import { CalendarCheck, Clock, AlertTriangle, Check, X, ChevronLeft, ChevronRight } from "lucide-react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@repo/ui/components/ui/table"
 import { Button } from "@repo/ui/components/ui/button"
@@ -89,13 +89,13 @@ const AppointmentsPage = () => {
       {/* Header */}
       <header className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex items-center justify-between border-b border-[#1A1D21]">
         <div className="flex items-center gap-2">
-          {/* <Image
+          <Image
             src="/assets/images/logo.png"
             alt="wellConsult logo"
             width={32}
             height={32}
             className="w-8 h-8"
-          /> */}
+          />
           <h1 className="text-xl sm:text-2xl font-bold">wellConsult</h1>
         </div>
         <div className="flex items-center gap-2 sm:gap-3">

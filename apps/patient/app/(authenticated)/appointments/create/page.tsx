@@ -1,5 +1,5 @@
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import AppointmentForm from "@/common/components/forms/appointment-create-form";
 
 const CreateAppointmentPage = () => {
@@ -9,12 +9,12 @@ const CreateAppointmentPage = () => {
       <div className="flex-1 px-6 py-8 md:px-12 md:py-12 lg:px-28 lg:py-15 flex flex-col">
         {/* Logo */}
         <div className="flex items-center gap-2 mb-8 md:mb-12">
-          {/* <Image
+          <Image
             src="/assets/images/logo.png"
             alt="logo"
             width={32}
             height={32}
-          /> */}
+          />
           <h1 className="text-xl md:text-2xl font-bold ">wellConsult</h1>
         </div>
 

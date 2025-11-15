@@ -1,5 +1,5 @@
 import PatientCompleteProfileForm from "@/common/components/forms/patient-complete-profile-form";
-// import Image from "next/image";
+import Image from "next/image";
 import { redirect } from "next/navigation";
 
 const CompleteProfilePage = async ({
@@ -16,12 +16,12 @@ const CompleteProfilePage = async ({
       <div className="min-h-screen flex bg-[#131619] text-white">
         <div className="flex-1 px-6 py-8 md:px-12 md:py-12 lg:px-28 lg:py-15 flex flex-col justify-between">
           <div className="flex items-center gap-2">
-            {/* <Image
+            <Image
               src="/assets/images/logo.png"
               alt="logo"
               width={32}
               height={32}
-            /> */}
+            />
             <h1 className="text-xl md:text-2xl font-bold">wellConsult</h1>
           </div>
           <div>

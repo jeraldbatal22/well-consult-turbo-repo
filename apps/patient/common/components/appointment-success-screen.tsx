@@ -1,6 +1,6 @@
 "use client"
 
-// import Image from "next/image"
+import Image from "next/image"
 import { Check, Calendar } from "lucide-react"
 import { Avatar } from "@repo/ui/components/ui/avatar"
 
@@ -45,13 +45,13 @@ export function AppointmentSuccessScreen({
       {/* Header */}
       <header className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex items-center justify-center border-b border-[#1A1D21]">
         <div className="flex items-center gap-2">
-          {/* <Image
+          <Image
             src="/assets/images/logo.png"
             alt="wellConsult logo"
             width={32}
             height={32}
             className="w-8 h-8"
-          /> */}
+          />
           <h1 className="text-xl sm:text-2xl font-bold">wellConsult</h1>
         </div>
       </header>

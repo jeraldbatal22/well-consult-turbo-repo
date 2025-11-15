@@ -1,6 +1,6 @@
 import SignupForm from "@/common/components/forms/signup-form";
 import OTPModal from "@/common/components/modals/otp-modal";
-// import Image from "next/image";
+import Image from "next/image";
 
 
 const SignupPage = async ({
@@ -15,12 +15,12 @@ const SignupPage = async ({
       <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2 bg-[#131619] text-white">
         <div className="px-6 py-8 md:px-12 md:py-12 lg:px-28 lg:py-15 flex flex-col justify-between">
           <div className="flex items-center gap-2">
-            {/* <Image
+            <Image
               src="/assets/images/logo.png"
               alt="logo"
               width={32}
               height={32}
-            /> */}
+            />
             <h1 className="text-xl md:text-2xl font-bold">wellConsult</h1>
           </div>
           <div>

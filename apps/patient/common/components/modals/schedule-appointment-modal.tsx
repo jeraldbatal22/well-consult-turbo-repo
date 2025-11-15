@@ -30,7 +30,7 @@ import {
 import { Calendar, Search, Check } from "lucide-react"
 import { z } from "zod"
 import { Avatar } from "@repo/ui/components/ui/avatar"
-// import Image from "next/image"
+import Image from "next/image"
 
 const formSchema = z.object({
   doctor: z.string().min(1, {
@@ -152,13 +152,13 @@ export function ScheduleAppointmentModal({
             {/* Header */}
             <div className="flex items-center justify-center">
               <div className="flex items-center gap-2">
-                {/* <Image
+                <Image
                   src="/assets/images/logo.png"
                   alt="wellConsult logo"
                   width={32}
                   height={32}
                   className="w-8 h-8"
-                /> */}
+                />
                 <h1 className="text-xl sm:text-2xl font-bold">wellConsult</h1>
               </div>
             </div>
